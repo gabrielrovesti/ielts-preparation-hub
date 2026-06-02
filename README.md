@@ -1,7 +1,7 @@
 # 📚 IELTS Preparation Hub
 
 > Personal study repository for IELTS General Training preparation.  
-> Combines structured notes from mock test sessions with AI-assisted analysis via [NotebookLM](https://notebooklm.google.com/), sourced from the official **Cambridge IELTS** book series.
+> Combines structured notes from mock test sessions with AI-assisted analysis, sourced from the official **Cambridge IELTS** book series.
 
 **Current estimated band range: 7.5 – 8.0 | Target: 8.0+**
 
