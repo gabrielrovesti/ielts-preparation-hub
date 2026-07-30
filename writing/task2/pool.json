@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "id": "w2-001",
+      "path": "writing/task2/entries/w2-001-healthcare-funding.md",
+      "type": "discuss-both-views",
+      "topic": "healthcare-funding",
+      "bandTarget": "7.5-8",
+      "errorTags": ["italian-calque-demanded-to", "italian-spelling-pragmatica", "equally-adverb-placement", "gerund-chaining"],
+      "status": "reviewed",
+      "origin": "personal-session-result"
+    },
+    {
+      "id": "w2-002",
+      "path": "writing/task2/entries/w2-002-meaning-of-success.md",
+      "type": "two-part-question",
+      "topic": "meaning-of-success",
+      "bandTarget": "8-9",
+      "errorTags": [],
+      "status": "reviewed",
+      "origin": "ai-generated-original"
+    }
+  ]
+}
