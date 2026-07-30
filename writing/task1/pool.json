@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "w1-001",
+      "path": "writing/task1/entries/w1-001-festival-volunteering.md",
+      "type": "gt-letter",
+      "register": "informal",
+      "topic": "festival-volunteering",
+      "bandTarget": "8-9",
+      "errorTags": ["layered-followup-questions", "register-informal-calibration"],
+      "status": "reviewed",
+      "origin": "ai-generated-original"
+    },
+    {
+      "id": "w1-002",
+      "path": "writing/task1/entries/w1-002-interview-reschedule.md",
+      "type": "gt-letter",
+      "register": "formal",
+      "topic": "interview-rescheduling",
+      "bandTarget": "8-9",
+      "errorTags": ["causal-justification-depth", "narrow-rescheduling-window", "layered-followup-questions"],
+      "status": "reviewed",
+      "origin": "ai-generated-original"
+    },
+    {
+      "id": "w1-003",
+      "path": "writing/task1/entries/w1-003-hotel-thankyou.md",
+      "type": "gt-letter",
+      "register": "formal",
+      "topic": "hotel-thank-you",
+      "bandTarget": "8-9",
+      "errorTags": ["formal-closing-convention"],
+      "status": "reviewed",
+      "origin": "ai-generated-original"
+    }
+  ]
+}
