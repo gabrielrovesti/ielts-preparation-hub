@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "module": "IELTS General Training Writing Task 2",
+  "entries": [
+    {
+      "id": "w2-gen-001",
+      "title": "Defining Success",
+      "type": "opinion",
+      "topic": "success and achievement",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "Some people measure success mainly through income and professional status, whereas others believe that personal fulfilment and contribution to society are more important.\n\nWhat is your opinion?",
+      "prompt_type_analysis": "Opinion essay. Establish a hierarchy of criteria rather than merely listing several definitions of success.",
+      "core_tension": "externally measurable achievement versus internally and socially meaningful achievement",
+      "possible_position": "Financial stability and professional competence matter, but they are incomplete indicators; a defensible definition should also include autonomy, durable relationships and socially useful contribution.",
+      "argument_traps": [
+        "Treating wealth as inherently immoral",
+        "Giving several definitions without a controlling thesis",
+        "Using purely autobiographical evidence"
+      ],
+      "planning_prompts": [
+        "Which indicators of success are measurable but incomplete?",
+        "Which non-financial outcomes remain stable over time?",
+        "How should individual and social criteria be balanced?"
+      ],
+      "error_tags": [
+        "nuanced-position",
+        "abstract-definition",
+        "example-development"
+      ],
+      "status": "not-attempted"
+    },
+    {
+      "id": "w2-gen-002",
+      "title": "Public Healthcare Funding",
+      "type": "discussion-opinion",
+      "topic": "public health",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "Some people believe that all essential healthcare should be funded entirely by the state. Others argue that patients should contribute to the cost of treatment whenever they can afford to do so.\n\nDiscuss both views and give your own opinion.",
+      "prompt_type_analysis": "Discussion plus opinion. Represent the fiscal argument fairly before defending a clear funding model.",
+      "core_tension": "universal access and equity versus fiscal sustainability and individual contribution",
+      "possible_position": "Essential and preventive care should remain universally accessible, while carefully regulated co-payments may be justified for non-essential services and higher-income patients.",
+      "argument_traps": [
+        "Equating state-funded care with unlimited free treatment",
+        "Ignoring administrative and inequality effects of co-payments",
+        "Offering a compromise without defining its boundaries"
+      ],
+      "planning_prompts": [
+        "Which services must remain universal?",
+        "What fiscal pressures weaken a fully state-funded model?",
+        "How can contribution mechanisms avoid creating barriers to treatment?"
+      ],
+      "error_tags": [
+        "balanced-discussion",
+        "policy-precision",
+        "qualified-position"
+      ],
+      "status": "not-attempted"
+    },
+    {
+      "id": "w2-gen-003",
+      "title": "Progress and Globalisation",
+      "type": "two-part-question",
+      "topic": "globalisation and progress",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "Economic and technological progress has connected societies more closely than ever, yet critics argue that this development has also weakened local cultures and increased inequality.\n\nWhy do some people view modern progress negatively? Do its benefits outweigh its disadvantages?",
+      "prompt_type_analysis": "Two-part essay. The first body section must explain the negative perception; the second must evaluate the overall balance.",
+      "core_tension": "material and informational gains versus cultural displacement and unequal distribution",
+      "possible_position": "The criticism is understandable because gains are distributed unevenly and cultural costs are visible; nevertheless, the benefits can outweigh the harms when institutions actively protect inclusion and local autonomy.",
+      "argument_traps": [
+        "Using globalisation and technology as interchangeable concepts",
+        "Listing disadvantages without explaining the negative perception",
+        "Claiming benefits outweigh harms without an evaluative standard"
+      ],
+      "planning_prompts": [
+        "Which groups experience the costs most directly?",
+        "Which benefits would be difficult to reverse or replace?",
+        "What conditions determine whether progress is broadly beneficial?"
+      ],
+      "error_tags": [
+        "two-part-coverage",
+        "causal-analysis",
+        "evaluation-standard"
+      ],
+      "status": "not-attempted"
+    },
+    {
+      "id": "w2-gen-004",
+      "title": "Expansion of Air Travel",
+      "type": "advantages-disadvantages",
+      "topic": "aviation and environment",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "The rapid expansion of affordable air travel has enabled more people to work, study and take holidays abroad. However, it has also created serious environmental and social pressures.\n\nDo the advantages of this development outweigh the disadvantages?",
+      "prompt_type_analysis": "Advantages-versus-disadvantages essay requiring explicit weighting, not a neutral catalogue.",
+      "core_tension": "mobility, opportunity and economic exchange versus emissions, overtourism and infrastructure pressure",
+      "possible_position": "Broader access to international mobility has substantial value, but continued expansion is defensible only if pricing and regulation internalise environmental costs and manage pressure on destinations.",
+      "argument_traps": [
+        "Discussing tourism only and ignoring work or education",
+        "Treating all flights as equally necessary",
+        "Proposing technological solutions as already sufficient"
+      ],
+      "planning_prompts": [
+        "Which benefits are individual and which are societal?",
+        "Which environmental costs are currently externalised?",
+        "What regulatory conditions would change the overall judgement?"
+      ],
+      "error_tags": [
+        "explicit-weighing",
+        "environmental-policy",
+        "qualified-position"
+      ],
+      "status": "not-attempted"
+    }
+  ]
+}
