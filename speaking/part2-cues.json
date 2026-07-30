@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "id": "sp2-001",
+      "path": "speaking/part2/entries/sp2-001-favourite-clothing-item.md",
+      "topic": "favourite-clothing-item",
+      "bandTarget": "8-8.5",
+      "errorTags": [],
+      "status": "reviewed",
+      "origin": "ai-generated-original"
+    },
+    {
+      "id": "sp2-002",
+      "path": "speaking/part2/entries/sp2-002-childhood-memory.md",
+      "topic": "significant-childhood-memory",
+      "bandTarget": "8-8.5",
+      "errorTags": [],
+      "status": "reviewed",
+      "origin": "ai-generated-original"
+    }
+  ]
+}
