@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "module": "IELTS General Training Writing Task 1",
+  "provenance_policy": {
+    "historical_session_derived": "Use only when the exact prompt or draft is recoverable from a prior session.",
+    "newly_generated": "Original practice material generated around an attested topic; not presented as a recovered historical prompt.",
+    "personal_session_result": "A learner-authored response or recorded result."
+  },
+  "entries": [
+    {
+      "id": "w1-gen-001",
+      "title": "Defective Used Car",
+      "type": "GT Letter",
+      "register": "formal",
+      "topic": "consumer complaint",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "You recently bought a used car from a local dealership. Within a few days, you discovered several faults that were not mentioned before the purchase.\n\nWrite a letter to the dealership manager. In your letter:\n- describe the faults you discovered\n- explain how they have affected you\n- state what action you expect the dealership to take",
+      "opening": "Dear Sir or Madam,",
+      "difficulty_notes": "Build a precise chronology and distinguish observable faults from their practical consequences.",
+      "register_trap": "A firm complaint is appropriate; emotional accusations, threats and colloquial language are not.",
+      "band_8_move": "Request a concrete remedy and support it with dates, symptoms and the effect on normal vehicle use.",
+      "error_tags": [
+        "formal-register",
+        "causal-clarity",
+        "specific-remedy"
+      ],
+      "status": "not-attempted"
+    },
+    {
+      "id": "w1-gen-002",
+      "title": "Interview Rescheduling",
+      "type": "GT Letter",
+      "register": "formal",
+      "topic": "appointment rescheduling",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "You have been invited to attend an interview for a course, but an unexpected professional obligation means you cannot attend at the proposed time.\n\nWrite a letter to the admissions officer. In your letter:\n- explain why you cannot attend\n- apologise for the inconvenience\n- suggest alternative dates or times",
+      "opening": "Dear Sir or Madam,",
+      "difficulty_notes": "The explanation must be sufficient but concise; the purpose of the letter is rescheduling, not storytelling.",
+      "register_trap": "Avoid demanding a new slot. Present alternatives while recognising that the institution controls availability.",
+      "band_8_move": "Use a compact causal chain and offer two realistic alternatives rather than a vague request.",
+      "error_tags": [
+        "formal-register",
+        "causal-clarity",
+        "hedged-request"
+      ],
+      "status": "not-attempted"
+    },
+    {
+      "id": "w1-gen-003",
+      "title": "Two-Week Holiday Information",
+      "type": "GT Letter",
+      "register": "formal",
+      "topic": "travel information request",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "You are planning a two-week holiday in a region you have never visited and have found a local travel company online.\n\nWrite a letter to the company. In your letter:\n- describe the kind of holiday you are planning\n- ask about suitable accommodation and transport\n- request information about activities available during your stay",
+      "opening": "Dear Sir or Madam,",
+      "difficulty_notes": "Organise multiple requests clearly and provide enough constraints for the recipient to give useful advice.",
+      "register_trap": "Indirect questions retain statement word order: 'Could you tell me whether transport is included?'",
+      "band_8_move": "Specify duration, budget range, interests and mobility constraints without turning the letter into a checklist.",
+      "error_tags": [
+        "indirect-question-word-order",
+        "request-organisation",
+        "lexical-precision"
+      ],
+      "status": "not-attempted"
+    },
+    {
+      "id": "w1-gen-004",
+      "title": "Unsatisfactory Local Service",
+      "type": "GT Letter",
+      "register": "formal",
+      "topic": "service complaint",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "A service you regularly use in your local area has recently become unreliable, causing repeated inconvenience to residents.\n\nWrite a letter to the organisation responsible. In your letter:\n- describe how the service has deteriorated\n- explain the consequences for local users\n- propose practical improvements",
+      "opening": "Dear Sir or Madam,",
+      "difficulty_notes": "Separate evidence of deterioration from broader consequences and proposed remedies.",
+      "register_trap": "Avoid unsupported generalisations such as 'everyone is furious' or 'the service is always terrible'.",
+      "band_8_move": "Use frequency, dates or concrete examples and propose changes that match the identified failures.",
+      "error_tags": [
+        "evidence-based-complaint",
+        "formal-register",
+        "matched-solution"
+      ],
+      "status": "not-attempted"
+    },
+    {
+      "id": "w1-gen-005",
+      "title": "Thanking a Hotel Manager",
+      "type": "GT Letter",
+      "register": "formal",
+      "topic": "appreciation and feedback",
+      "origin": "newly_generated",
+      "continuity_basis": "attested-session-topic",
+      "official_text_included": false,
+      "band_target": "8-9",
+      "prompt": "During a recent hotel stay, a member of staff provided exceptional assistance when you encountered an unexpected problem.\n\nWrite a letter to the hotel manager. In your letter:\n- describe the problem you experienced\n- explain how the staff member helped you\n- say how you would like their work to be recognised",
+      "opening": "Dear Sir or Madam,",
+      "difficulty_notes": "Maintain a professional tone while conveying genuine appreciation and a clear sequence of events.",
+      "register_trap": "Do not make the praise generic; equally, avoid exaggerated or excessively emotional language.",
+      "band_8_move": "Show the staff member's impact through specific actions and a proportionate recognition request.",
+      "error_tags": [
+        "narrative-sequencing",
+        "formal-appreciation",
+        "lexical-precision"
+      ],
+      "status": "not-attempted"
+    }
+  ]
+}
