@@ -1,7 +1,9 @@
-# 📚 IELTS Preparation Hub
+# IELTS Preparation Hub
 
 > Personal study repository for IELTS General Training preparation.  
 > Combines structured notes from mock test sessions with AI-assisted analysis via [NotebookLM](https://notebooklm.google.com/), sourced from the official **Cambridge IELTS** book series.
+
+> Preparation conducted using material from [https://www.britishcouncil.it/esami/ielts/preparazione](https://britishcouncil.gelielts.com/) - wonderful site with different mocks of all categories and good quality/interface overall.
 
 **Current estimated band range: 7.5 – 8.0 | Target: 8.0+**
 
@@ -39,12 +41,12 @@ Based on performance profile (Reading 8+, Writing 7.5–8.0):
 
 | Priority | Area | Action |
 |----------|------|--------|
-| 🔴 High | Lexical Resource | `lexical-resource-vault.md` — run Section 4 drill weekly; eliminate Italian interference |
-| 🔴 High | Writing Task 1 register | Drill informal letters (contractions, speculative options, personal voice) |
-| 🟡 Medium | Writing Task 2 positioning | Consistent nuanced stance on "to what extent" prompts |
-| 🟡 Medium | Speaking baseline | Record 2 cue card responses; establish band estimate |
-| 🟡 Medium | Listening baseline | Run 1 full Cambridge section; identify error type distribution |
-| 🟢 Low | Reading | Already 8+; maintain with 1 timed section per week |
+| High | Lexical Resource | `lexical-resource-vault.md` — run Section 4 drill weekly; eliminate Italian interference |
+| High | Writing Task 1 register | Drill informal letters (contractions, speculative options, personal voice) |
+| Medium | Writing Task 2 positioning | Consistent nuanced stance on "to what extent" prompts |
+| Medium | Speaking baseline | Record 2 cue card responses; establish band estimate |
+| Medium | Listening baseline | Run 1 full Cambridge section; identify error type distribution |
+| Low | Reading | Already 8+; maintain with 1 timed section per week |
 
 ---
 
@@ -52,7 +54,7 @@ Based on performance profile (Reading 8+, Writing 7.5–8.0):
 
 All practice material is derived from the **Official Cambridge IELTS** series (Books 11–16), used via [NotebookLM](https://notebooklm.google.com/) for AI-assisted analysis, question generation, and feedback synthesis.
 
-> ⚠️ No copyrighted content from Cambridge publications is stored in this repository. All files contain original notes, personal answers, and derived analysis only.
+> No copyrighted content from Cambridge publications is stored in this repository (for all of you ex-uni stalking groups!). All files contain original notes, personal answers, and derived analysis only.
 
 ---
 
@@ -148,7 +150,7 @@ All practice material is derived from the **Official Cambridge IELTS** series (B
 | Tool | Purpose |
 |------|---------|
 | [NotebookLM](https://notebooklm.google.com/) | AI-assisted Q&A, analysis and synthesis over Cambridge IELTS source books |
-| Claude (Anthropic) | Mock test feedback, band-level analysis, model answer generation, repo content |
+| Claude (Anthropic) + GPT (OpenAI) | Mock test feedback, band-level analysis, model answer generation, repo content, pool banks and schemas as assistance |
 | Cambridge IELTS 11–16 | Primary source for authentic test material |
 
 ---
