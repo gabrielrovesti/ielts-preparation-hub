@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/ielts-practice-pool.schema.json",
+  "title": "IELTS Practice Pool",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "module",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "module": {
+      "type": "string"
+    },
+    "provenance_policy": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "type",
+          "topic",
+          "origin",
+          "official_text_included",
+          "band_target",
+          "prompt",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^w[12]-[a-z]+-[0-9]{3}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "register": {
+            "type": "string",
+            "enum": [
+              "formal",
+              "semi-formal",
+              "informal"
+            ]
+          },
+          "topic": {
+            "type": "string",
+            "minLength": 1
+          },
+          "origin": {
+            "type": "string",
+            "enum": [
+              "historical_session_derived",
+              "personal_session_result",
+              "repo_existing",
+              "newly_generated"
+            ]
+          },
+          "continuity_basis": {
+            "type": "string",
+            "enum": [
+              "exact-session-material",
+              "attested-session-topic",
+              "repo-topic",
+              "none"
+            ]
+          },
+          "official_text_included": {
+            "const": false
+          },
+          "band_target": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 40
+          },
+          "opening": {
+            "type": "string"
+          },
+          "difficulty_notes": {
+            "type": "string"
+          },
+          "register_trap": {
+            "type": "string"
+          },
+          "band_8_move": {
+            "type": "string"
+          },
+          "prompt_type_analysis": {
+            "type": "string"
+          },
+          "core_tension": {
+            "type": "string"
+          },
+          "possible_position": {
+            "type": "string"
+          },
+          "argument_traps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "planning_prompts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "error_tags": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "not-attempted",
+              "drafted",
+              "reviewed",
+              "band-8-achieved"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
