@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Writing Pool Entry",
+  "type": "object",
+  "properties": {
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "path", "topic", "bandTarget", "status", "origin"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^w[12]-[0-9]{3}$" },
+          "path": { "type": "string" },
+          "type": { "type": "string" },
+          "register": { "type": "string", "enum": ["formal", "semi-formal", "informal"] },
+          "topic": { "type": "string" },
+          "bandTarget": { "type": "string" },
+          "errorTags": { "type": "array", "items": { "type": "string" } },
+          "status": { "type": "string", "enum": ["not-attempted", "in-progress", "reviewed"] },
+          "origin": {
+            "type": "string",
+            "enum": ["official-derived-analysis", "ai-generated-original", "personal-session-result"]
+          }
+        }
+      }
+    }
+  }
+}

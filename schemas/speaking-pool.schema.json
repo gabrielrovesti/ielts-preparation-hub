@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Speaking Pool Entry",
+  "type": "object",
+  "properties": {
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "path", "topic", "bandTarget", "status", "origin"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^sp[123]-[0-9]{3}$" },
+          "path": { "type": "string" },
+          "topic": { "type": "string" },
+          "bandTarget": { "type": "string" },
+          "errorTags": { "type": "array", "items": { "type": "string" } },
+          "status": { "type": "string", "enum": ["not-attempted", "in-progress", "reviewed"] },
+          "origin": {
+            "type": "string",
+            "enum": ["official-derived-analysis", "ai-generated-original", "personal-session-result"]
+          }
+        }
+      }
+    }
+  }
+}
